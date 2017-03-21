@@ -1,0 +1,23 @@
+.sbjp_picture img{
+    width: 100%;
+    height: auto;
+}
+/*图片展区介绍*/
+/*内容区开始*/
+/*内容*/
+.sbjp_content{
+    width: 100%;
+}
+.sbjp_content a{
+    text-decoration:none;
+    color: #666666!important;
+}
+.sbjp_selectBox{
+    text-align: center;
+}
+
+/*内容区结束*/
+/*脚部左填充距为0*/
+.bar-footer-padding-left-0{
+    padding-left: 0;
+}

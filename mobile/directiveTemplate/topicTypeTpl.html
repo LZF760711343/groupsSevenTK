@@ -1,0 +1,12 @@
+<!--题型选择-->
+<!--图片-->
+<div class="banner-img">
+    <img src="{{banner}}">
+</div>
+<!--内容-->
+<div class="list"  ng-repeat="item in data">
+    <div class="item item-icon-left a" style="background-image: url('{{item.bg}}')" ng-click="colClick({{item.id}})">
+        <i class="icon {{item.icon}}"></i>
+        <p>{{item.name}}</p>
+    </div>
+</div>

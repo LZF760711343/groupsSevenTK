@@ -1,0 +1,29 @@
+<ion-view title="{{result.title()}}" hide-tabs="true" ng-controller="recognizedCtrl">
+    <ion-content has-header="true" padding="true">
+        <div class="banner-img">
+            <img src="{{recognizedImg}}"/>
+        </div>
+        <div style="margin-left: 30px;margin-bottom: 50px">
+            <p>{{result.currentItem+1}}:{{result.data[result.currentItem].name}}</p>
+            <div style="text-align: right; margin-right: 80px">
+                <input type="radio" name="radio"/> 对
+                <input type="radio" name="radio"/> 错
+            </div>
+        </div>
+
+        <!--答案弹框区-->
+        <div class="answerAll">
+            <div class="answerBtn">
+                <button class="button button-balanced" ng-click="showAlert()">答案</button>
+            </div>
+        </div>
+    </ion-content>
+    <div class="tabs">
+        <a class="tab-item" ng-click="result.pre()">
+            上一题
+        </a>
+        <a class="tab-item" ng-click="result.next()">
+            下一题
+        </a>
+    </div>
+</ion-view>

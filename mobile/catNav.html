@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mobileApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>神猫题库</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="../public/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../public/lib/ionic/release/css/ionic.min.css">
+    <link rel="stylesheet" href="../public/lib/swiper/dist/css/swiper.min.css">
+    <!--题型选择-->
+    <link rel="stylesheet" href="assets/css/subjectType.css">
+    <!--咨讯-->
+    <link rel="stylesheet" href="assets/css/information.css">
+    <!--我的，设置-->
+    <link rel="stylesheet" href="assets/css/myself.css">
+    <!--科目类型-->
+    <link href="assets/css/subjectPage.css" rel="stylesheet">
+    <!--题目-->
+    <link rel="stylesheet" href="assets/css/subjectTile.css">
+    <!--jquery-->
+    <script src="../public/lib/jquery/dist/jquery.min.js"></script>
+    <!--swiper-->
+    <script src="../public/lib/swiper/dist/js/swiper.min.js"></script>
+    <!--B3-->
+    <script src="../public/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--angular-->
+    <script src="../public/lib/angular/angular.min.js"></script>
+    <!--angular路由-->
+    <script src="../public/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!--ionic-->
+    <script src="../public/lib/ionic/release/js/ionic.bundle.min.js"></script>
+    <!--模块加载-->
+    <script src="app.js"></script>
+    <!--config，改变ionic中的一些设置-->
+    <script src="config/config.js"></script>
+    <!--run-->
+    <script src="run/run.js"></script>
+    <!--路由-->
+    <script src="router/uiRouter.js"></script>
+    <!--服务-->
+    <script src="server/basePath.js"></script>
+    <script src="server/catServer.js"></script>
+    <script src="server/topicTypeServer.js"></script>
+    <script src="server/subjectTypeServer.js"></script>
+    <script src="server/infoServer.js"></script>
+    <script src="server/choiceServer.js"></script>
+    <script src="server/checkServer.js"></script>
+    <script src="server/answerServer.js"></script>
+    <script src="server/recognizedServer.js"></script>
+    <script src="server/spaceServer.js"></script>
+    <!--指令-->
+    <script src="directive/catType.js"></script>
+    <script src="directive/catInformation.js"></script>
+    <script src="directive/catMyself.js"></script>
+    <script src="directive/hideTabs.js"></script>
+    <script src="directive/catSubject.js"></script>
+    <script src="directive/catTopic.js"></script>
+    <!--控制器-->
+    <script src="controller/indexCtrl.js"></script>
+    <script src="controller/topicTypeCtrl.js"></script>
+    <script src="controller/subjectCtrl.js"></script>
+    <script src="controller/choiceCtrl.js"></script>
+    <script src="controller/checkCtrl.js"></script>
+    <script src="controller/answerCtrl.js"></script>
+    <script src="controller/recognizedCtrl.js"></script>
+    <script src="controller/spaceCtrl.js"></script>
+</head>
+<body ng-controller="indexCtrl">
+    <ion-nav-bar class="bar-calm nav-title-slide-ios7" align-title="center">
+        <ion-nav-back-button class="button-clear" >
+            <i class="ion-arrow-left-c"></i>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-nav-view animation="slide-left-right"></ion-nav-view>
+</body>
+</html>

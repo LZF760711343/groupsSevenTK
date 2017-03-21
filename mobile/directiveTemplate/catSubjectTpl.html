@@ -1,0 +1,15 @@
+<!--图片展示-->
+<div class="sbjp_picture">
+    <img src="{{subjectImg}}">
+</div>
+<!--330-->
+<!--科目选择开始-->
+<div class="container">
+    <div class="row row-wrap" style="margin: 0 auto">
+        <div class="col col-33 text-center" ng-repeat="item in subjectData" ng-click="colClick({{item}})">
+            <img src="{{item.subjectImg}}"/>
+            <p>{{item.subjectTitle}}</p>
+        </div>
+    </div>
+</div>
+<!--科目选择结束-->

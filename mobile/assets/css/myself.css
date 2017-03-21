@@ -1,0 +1,46 @@
+/*设置左侧按钮图标大小*/
+.bar .button.button-clear .icon:before, .bar .button.button-clear.icon-left:before,
+.bar .button.button-clear.icon-right:before, .bar .button.button-clear.icon:before,
+.bar button.button-clear .icon:before, .bar button.button-clear.icon-left:before,
+.bar button.button-clear.icon-right:before, .bar button.button-clear.icon:before {
+    font-size: 22px!important;
+    line-height: 32px;
+}
+/*---副标题、logo部分----*/
+.mu-subHeader{
+    text-align: center;
+    /*margin-top: 43px;*/
+    background-color: #F3F3FA;
+}
+/*------每一项给出距离底部的空隙----*/
+.item{
+    margin-bottom: 4px;
+}
+/*----每一项字体颜色---*/
+.list a{
+    color: #6C6C6C;
+}
+/*-----颜色列表-----*/
+.color-blue{
+    color: #0a9dc7;
+}
+.color-green{
+    color: #4cae4c;
+}
+.color-yellow{
+    color: #ccd232;
+}
+.color-darkred{
+    color: #9e0505;
+}
+.color-red{
+    color: #FF0000;
+}
+/*脚部左填充距为0*/
+.bar-footer-padding-left-0{
+    padding-left: 0;
+}
+/*取消选中下划线*/
+a:focus, a:hover {
+    text-decoration: none;
+}

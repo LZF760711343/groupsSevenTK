@@ -1,0 +1,50 @@
+/*设置body边框为0*/
+.body-margin{
+    margin: 0;
+}
+/*设置加载页图片大小为满屏*/
+.swiper-slide>img{
+    width: 100%;
+    height: 100%;
+}
+/*设置过渡页图片大小满屏*/
+.load-img>img{
+    width: 100%;
+    height: 100%;
+}
+/*设置一个盒子放图片和文字进行绝对定位*/
+.swiper-slide-go{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 200px;
+    margin-left: -75px
+}
+/*设置进入题库的按钮背景图片大小*/
+.swiper-slide-go img{
+    width: 155px;
+    height: 47px;
+}
+/*设置进入题库的文字*/
+.swiper-slide-go p{
+    position: relative;
+    left: 50px;
+    top: -40px;
+    color: #ffffff;
+    font-family: 'Microsoft YaHei'
+}
+/*取消文字下划线*/
+.a:link{
+    text-decoration: none;
+}
+/*设置加载页的进度条初始样式*/
+.progress{
+    position: absolute;
+    height: 10px;
+    width: 1%;
+    background-color: #177ED5;
+}
+/*分页器的显示当前页的颜色*/
+.swiper-pagination-bullet-active{
+    background-color: #ffffff;
+}

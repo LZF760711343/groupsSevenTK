@@ -1,0 +1,26 @@
+
+<div class="swiper-container syiper-container-odd" style="margin-bottom: 0;">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slider2" ng-repeat="item in imgData">
+            <img src="{{imgPath+item.img}}"/>
+            <!--最后一页的按钮-->
+            <div ng-if="$last" class="swiper-slide-go">
+                <a href="{{url}}" class="a">
+                    <img src="{{imgPath+goIndex.goImg}}"/>
+                    <p>{{goIndex.goFont}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<!--js-->
+<script>
+    //    设置分页器的效果
+    var mySwiper1 = new Swiper('.syiper-container-odd', {
+        autoplay: 6000,
+        pagination: '.swiper-pagination',
+        autoplayStopOnLast : true,
+        resistanceRatio : 0
+    });
+</script>

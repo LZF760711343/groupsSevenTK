@@ -1,0 +1,17 @@
+/*---banner图片---*/
+.bannerImg{
+    height: auto;
+    width: 100%;
+}
+/*----header部分title字体大小---*/
+.bar-header .title{
+    font-size: 22px;
+}
+/*每个list里的图片加边框*/
+.list>a>img{
+    border: 1px solid #ccc
+}
+/*脚部左填充距为0*/
+.bar-footer-padding-left-0{
+    padding-left: 0;
+}

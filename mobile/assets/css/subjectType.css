@@ -1,0 +1,32 @@
+/*初始化padding*/
+.padding{
+    padding: 0;
+}
+/*重置list的样式*/
+.list{
+    margin: 0;
+}
+.scroll-view{
+    margin: 0;
+}
+/*题型分类的banner图片*/
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
+/*题型选择*/
+.list .a {
+    background-size: 100% 100%;
+    margin-bottom: 4px;
+}
+.list .a i {
+    margin-left: 50px;
+    color: #ffffff;
+}
+.list .a p {
+    height: 40px;
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 80px;
+    line-height: 40px;
+}

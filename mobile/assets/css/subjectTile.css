@@ -1,0 +1,19 @@
+/*内容中间显示*/
+.content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.answerAll {
+    text-align: center;
+}
+/*答案按钮*/
+.answerBtn button {
+    text-align: center;
+    width: 150px !important;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+/*护眼模式颜色*/
+.qq {
+    background-color: #E3EDCD;
+}

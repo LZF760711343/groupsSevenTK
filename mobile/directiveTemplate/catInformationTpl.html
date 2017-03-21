@@ -1,0 +1,19 @@
+<!--咨讯-->
+    <ion-refresher
+            pulling-text="下拉刷新..."
+            on-refresh="doRefresh()">
+    </ion-refresher>
+    <ion-list>
+        <ion-slide-box active-slide="myActiveSlide" does-continue="true" slide-interval="4000" auto-play="true">
+            <ion-slide ng-repeat="item in informationBanner">
+                <img class="bannerImg" src="{{imgPath+item.img}}">
+            </ion-slide>
+        </ion-slide-box>
+        <div class="list" ng-repeat="item in informationData">
+            <a class="item item-thumbnail-left">
+                <img src="{{imgPath+item.imgData}}">
+                <h2>{{item.title}}</h2>
+                <p>{{item.info}}</p>
+            </a>
+        </div>
+    </ion-list>
